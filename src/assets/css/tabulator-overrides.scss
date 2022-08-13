@@ -1,0 +1,21 @@
+.tabulator {
+    .tabulator-col-title, .tabulator-cell {
+        color: #000;
+    }
+    .tabulator-header{
+        border-bottom: 1px solid rgb(209 213 219/90);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .tabulator-row {
+        border-bottom: 1px solid rgb(209 213 219/90);
+        .tabulator-cell:nth-child(1) {
+            font-family: Raleway, sans-serif;
+        }      
+        .tabulator-cell {
+            font-family: Lato, sans-serif;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+    }
+}
